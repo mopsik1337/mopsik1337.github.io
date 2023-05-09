@@ -1,5 +1,5 @@
 // задаем дату окончания таймера
-const endDate = new Date('2023-05-27T23:00:00').getTime();
+const endDate = new Date('2023-05-27T20:00:00').getTime();
 
 // обновляем таймер каждую секунду
 const timer = setInterval(function() {
