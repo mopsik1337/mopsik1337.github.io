@@ -123,9 +123,9 @@ button:active {
   background-color: #04AA6D;
   color: white;
 }
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   /* стили для мобильных устройств */
-/*  .container {
+  .container {
 width: 100%;
 height: auto;
 margin-top: 80px;
