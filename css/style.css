@@ -125,7 +125,7 @@ button:active {
 }
 @media screen and (max-width: 767px) {
   /* стили для мобильных устройств */
-  .container {
+/*  .container {
 width: 100%;
 height: auto;
 margin-top: 80px;
@@ -152,7 +152,7 @@ display: none;
 html, body {
 background-size: cover;
 }
-}
+}*/
 #countdown {
   font-size: 24px;
   font-weight: bold;
