@@ -12,6 +12,10 @@ html, body {
 	overflow: hidden;
 }
 
+* {
+  font-family: 'Montserrat';
+}
+
 .topnav {
   background-color: #936CD6;
   overflow: hidden;
