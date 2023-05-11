@@ -13,14 +13,14 @@ html, body {
 }
 
 .topnav {
-  background-color: #333;
+  background-color: #9400D3;
   overflow: hidden;
 }
 
 button {
   display: inline-block;
   position: relative; /* Добавляем относительное позиционирование, чтобы можно было позиционировать псевдоэлемент */
-  background-color: #333;
+  background-color: #800080;
   color: rgb(214,214,214);
   border: none;
   padding: 12px 24px 12px 50px; /* Увеличиваем правый внутренний отступ, чтобы сделать место для иконки */
@@ -45,7 +45,7 @@ button::before {
 }
 
 button:hover {
-  background-color: #444;
+  background-color: #BA55D3;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -68,7 +68,7 @@ button:active {
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #292929;
+  background-color: #9370DB;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -88,7 +88,7 @@ button:active {
   transform: translate(-50%, -50%);
   width: 400px;
   height: 590px;
-  background: #1e1e1e;
+  background: #8A2BE2;
   align-content: center;
   align-items: center;
   text-align: center;
@@ -120,7 +120,7 @@ button:active {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #BA55D3;
   color: white;
 }
 @media screen and (max-width: 767px) {
