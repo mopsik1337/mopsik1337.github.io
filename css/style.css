@@ -125,36 +125,6 @@ html, body {
   background-color: #7A45D6;
   color: white;
 }
-/*@media screen and (max-width: 767px) {
-
-  .container {
-width: 100%;
-height: auto;
-margin-top: 80px;
-padding: 20px;
-}
-html, body {
-font-size: 14px;
-}
-.topnav a {
-display: block;
-width: 100%;
-}
-button {
-padding: 10px 20px 10px 40px;
-font-size: 14px;
-}
-button::before {
-font-size: 14px;
-left: 15px;
-}
-#particles-js {
-display: none;
-}
-html, body {
-background-size: cover;
-}
-}*/
 #countdown {
   font-size: 24px;
   font-weight: bold;
