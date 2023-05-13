@@ -147,3 +147,16 @@ html, body {
 
 
 
+@media only screen and (max-width: 767px) {
+  html, body {
+    font-size: 10px;
+  }
+  .container {
+    margin-top: 10px;
+    width: 300px;
+    height: 600px;
+  }
+  .p-container2 {
+    display: none;
+  }
+}
