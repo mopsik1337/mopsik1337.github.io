@@ -13,7 +13,9 @@
 
 	<link rel="shortcut icon" href="icon.png" type="image/x-icon">
 	<link rel="icon" href="icon.png" type="image/x-icon">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="js/app.js"></script>
 	<script src="minecraft-block-and-entity.json"></script>
 
@@ -48,8 +50,8 @@ body, html {
 
 <div class="main">
 	<div id="particles-js">
-		<div class="container">
-			<i class="icon-minecraft icon-minecraft-grass-block"></i><h1 class="container-h1">MaryLand 1.19.2</h1><br>
+		<div class="container" >
+			<i class="icon-minecraft icon-minecraft-grass-block"></i><h1 class="container-h1"data-aos="fade-up">MaryLand 1.19.2</h1><br>
 
 			<p class="p-container">
 				Друзья, рад представить вам новый майнкрафт сервер под названием Maryland! Сервер откроется для всех желающих 27 мая и будет полностью лишен лишних плагинов и доната. Проходка на сервер будет абсолютно бесплатной, чтобы все могли насладиться игрой в Minecraft без каких-либо ограничений.
@@ -74,6 +76,10 @@ body, html {
 <script src="js/timer.js"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
+
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
