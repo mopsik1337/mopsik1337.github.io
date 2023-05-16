@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'phonk';
+  src: url('fonts/1.otf') format('opentype');
+  /* Additional font properties */
+  font-weight: normal;
+  font-style: normal;
+}
