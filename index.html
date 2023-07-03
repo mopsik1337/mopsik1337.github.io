@@ -4,6 +4,9 @@
 
 	<title>MaryLand - 1.19.2</title>
 	<meta name="description" content="MaryLandMC - приватный, ванильный сервер с большим community и отзывчивой администрацией!"/>
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="maryland, marylandmc, maryland сервер майнкрафт, maryland сервер, marylandmc minecraft, marylandmc.ru, mopsik">
+	<meta name="author" content="mopsik">
 
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -21,7 +24,7 @@
 	<script src="minecraft-block-and-entity.json"></script>
 
 </head>
-<body>
+<body onload="consoleLog()">
 
 <style>
 	
@@ -76,6 +79,10 @@ body, html {
 <script src="js/app.js"></script>
 
 <script>
+	function consoleLog() {
+		console.log("%cMaryLandMC - Vanilla Server","font-size: x-large");
+		console.log("website updated 03.07.23")
+	}
   AOS.init();
 </script>
 
