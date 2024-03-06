@@ -1,15 +1,91 @@
 <html>
   <head>
-    <title>Status Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="index.css" />
+    <title>MOPS HOST | Status page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MOPS HOST | Статус сервисов.">
+    <meta name="robots" content="index">
+    <meta name="robots" content="follow">
+
     <script src="index.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    </style>
+
+    <script src="https://cdn.tailwindcss.com/"></script>
+
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+
+    <!-- Open Graph Meta Tags для социальных сетей -->
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:title" content="MOPS HOST | Projects starts at domain name.">
+    <meta property="og:description" content="MOPS HOST | Projects starts at domain name.">
+    <meta property="og:image" content="../assets/favicon.png">
+    <meta property="og:url" content="https://mops.host">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="assets/favicon.png">
+    <meta name="twitter:title" content="MOPS HOST | Projects starts at domain name.">
+    <meta name="twitter:description" content="MOPS HOST | Projects starts at domain name.">
+    <meta name="twitter:image" content="../assets/favicon.png">
+
+    <style rel="preload" as="style">
+      @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+      html, body {
+        font-family: 'SF Pro Display';
+      }
+    </style>
+    <meta name="yandex-verification" content="126efbb9b3fc75f7" />
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
   </head>
   <body>
-    <div class="pageContainer">
-      <div class="headline">
-        <img src="logo.svg" alt="Logo" width="200px" />
-        <span> System Status </span>
+    <header class="flex flex-wrap border sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-2">
+      <nav class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between" aria-label="Global">
+        <a class="sm:order-1 my-2 flex-none text-xl font-semibold " href="../">
+        <svg class="flex mr-3 h-6 sm:h-9" width="78" height="33" viewBox="0 0 78 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1_2)">
+                          <path d="M55.5 0.5H77.5L58.5 32.5H36.5L55.5 0.5Z" fill="#15803D"/>
+                          <path d="M35.5 0.5H51.5L32.5 32.5H16.5L35.5 0.5Z" fill="#22C55E"/>
+                          <path d="M19.5 0.5H31.5L12.5 32.5H0.5L19.5 0.5Z" fill="#4ADE80"/>
+                          </g>
+                          <defs>
+                          <clipPath id="clip0_1_2">
+                          <rect width="78" height="32" fill="white" transform="translate(0 0.5)"/>
+                          </clipPath>
+                          </defs>
+                      </svg></a>
+        <div class="sm:order-3 flex items-center gap-x-2">
+          <button type="button" class="sm:hidden hs-collapse-toggle p-2.5 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white  shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none
+          " data-hs-collapse="#navbar-alignment" aria-controls="navbar-alignment" aria-label="Toggle navigation">
+            <svg class="hs-collapse-open:hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+            <svg class="hs-collapse-open:block hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+          <a href="telegram/" type="button" class="py-2 px-3 transition delay-50 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white  shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
+            &nbsp;&nbsp;Заказать&nbsp;&nbsp;
+          </a>
+        </div>
+        <div id="navbar-alignment" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2">
+          <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
+            <a class="font-medium text-green-600" href="../">Главная</a>
+            <a class="font-medium text-gray-700 transition hover:text-green-400 " href="../domains">Домены</a>
+            <a class="font-medium text-gray-700 transition hover:text-green-400 " href="https://zelenka.guru/threads/5391479/">Тема</a>
+            <a class="font-medium text-gray-700 transition hover:text-green-400 " href="../marketplace/">Маркетплейс</a>
+            <a class="font-medium text-gray-700 transition hover:text-green-400 " href="../hosting/">Хостинг</a>
+            <a class="font-medium text-gray-700 transition hover:text-green-400 " href="../reviews/">Отзывы</a>
+            <a class="font-medium text-gray-700 transition hover:text-green-400 " href="../support/">Поддержка</a>
+            <a class="font-medium text-gray-700 transition hover:text-green-400 " href="../rules/">Соглашение</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="pageContainer rounded-3xl">
+      <div class="headline ">
+        <!-- <img src="logo.svg" alt="Logo" width="200px" /> -->
+        <span class="rounded-full"> &nbsp;&nbsp;&nbsp;СТАТУС СИСТЕМ&nbsp;&nbsp;&nbsp; </span>
       </div>
       <div id="reports" class="reportContainer"></div>
       <div id="tooltip" class="tooltip" style="opacity: 0">
@@ -30,24 +106,24 @@
           id="statusStreamContainerTemplate"
           class="statusStreamContainer"
         ></div>
-        <div id="statusContainerTemplate" class="statusContainer">
+        <div id="statusContainerTemplate" class="statusContainer rounded-2xl">
           <div class="statusHeader">
-            <h6 class="statusTitle">$title&nbsp;</h6>
+            <h6 class="statusTitle font-bold">$title&nbsp;</h6>
             <div class="$color statusHeadline">$status</div>
           </div>
-          <div class="statusSubtitle">
+          <div class="mt-3 statusSubtitle">
             <div class="sectionUrl"><a href="$url">$url</a></div>
-            <div class="statusUptime">$upTime in the last 30 days</div>
+            <div class="statusUptime">$upTime - айптам последние 45дн.</div>
           </div>
         </div>
       </div>
+      <a href="../" type="button" class="py-2 px-3 transition delay-50 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white  shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
+        &nbsp;&nbsp;<-&nbsp;&nbsp;&nbsp;Главная страница  &nbsp;&nbsp;
+      </a>
     </div>
-    <footer>
-      Forked from
-      <a href="https://github.com/statsig-io/statuspage/"
-        >Statsig's Open-Source Status Page</a
-      >.
-    </footer>
+
+    <script src="../node_modules/preline/dist/preline.js"></script>
+
   </body>
   <script>
     genAllReports();
